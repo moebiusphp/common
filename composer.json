@@ -1,0 +1,20 @@
+{
+    "name": "moebius/common",
+    "description": "Some common functionality for Moebius",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Moebius\\Common\\": "src/"
+        },
+        "files": ["functions.php"]
+    },
+    "authors": [
+        {
+            "name": "Frode Børli",
+            "email": "frode@ennerd.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
